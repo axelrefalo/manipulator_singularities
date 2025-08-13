@@ -2,7 +2,7 @@ clear all; % erase all the remaining data
 close all; % close the windows
 
 % change the path of the directory
-dir_path = '/Users/axel/Desktop/Axel/ETS/CoRo/Matlab/manipulator singularities/';
+dir_path = '/Users/axel/Desktop/Axel/ETS/CoRo/Matlab/manipulator_singularities/';
 addpath(fullfile(dir_path, 'function'));
 
 syms tet1 tet2 tet3 tet4 tet5 tet6 real
